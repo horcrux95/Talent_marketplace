@@ -1,0 +1,348 @@
+<ion-content padding class="profile_page_background">
+
+
+
+
+  <!-- displays menu icon and talenet marketplace logo -->
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <img src="../../assets/imgs/heading_image.png" class="heading_image">
+        <span class="icon-burger_menu" icon-only menuToggle="right"> </span>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+
+
+<!-- EMPLOYEE PROFILE -->
+  <div class="profileDetailsDiv">
+    <!-- employee profile pic -->
+    <img src="../../assets/imgs/employee.png" class="employee_image">
+    <!-- name of employee -->
+    <h2 class="employee_name">Albert Manoraj Y</h2>
+    
+    <!-- details pannel of employee -->
+    <ion-grid class="employee_details_pannel">
+      <ion-row>
+        
+        <!-- left pannel of employee details -->
+        <ion-col col-6 class="employee_left_pannel">
+          <h2 class="employee_left_pannel_details">Assistant Manger</h2>
+          <h2 class="employee_left_pannel_details">Service Function</h2>
+          <h2 class="employee_left_pannel_details">Group B3</h2>
+        </ion-col>
+        
+        <!-- details pannel seperator -->
+        <ion-col col-1>
+          <img src="../../assets/imgs/seperator.png" class="profile_seperator">
+        </ion-col>
+        
+        <!-- right pannel of employee details -->
+        <ion-col col-5 class="employee_right_pannel">
+          <h2 class="employee_right_pannel_details">
+            <span class="icon-analysis"></span>2.5</h2>
+          <h2 class="employee_right_pannel_details">
+            <span class="icon-handshake"></span>0</h2>
+          <h2 class="employee_right_pannel_details">
+            <span class="icon-trophy"></span>0</h2>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+
+    <!-- employee linkedin connection division -->
+    <div class="employee_linkedin">
+      <h5>
+        <span class="icon-linkedin"></span> Connect my LinkedIn</h5>
+    </div>
+
+  </div>
+
+<!-- Profile details division CLOSES-->
+
+
+
+
+
+
+ <!-- ABOUT ME -->
+  <div class="aboutmeHeadingDiv">
+    <!-- about me heading and icon -->
+    <ion-grid class="heading_divs">
+      <ion-row>
+        <ion-col col-11>About me</ion-col>
+        <ion-col col-1>
+          <span class="icon-edit"></span>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  
+  <!-- about me content -->
+  <div class="aboutmeDivShort">
+    <p class="staff_value">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+      text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+      with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy
+      text of the printing and typesetting industry.
+    </p>
+  </div>
+
+  <!-- about me footer to expand and hide about me -->
+  <div class="aboutmeFooter" (click)="aboutmeToggle()">
+    <div id="aboutmeIcon">
+      <span *ngIf="!aboutmeExpand" class="icon-arrow_down"></span>
+      <span *ngIf="aboutmeExpand" class="icon-arrow_drop_up"></span>
+    </div>
+  </div>
+
+
+
+
+
+
+<!-- WORK EXPERIENCE -->
+<!-- work experience heading -->
+  <div class="workExperienceHeadingDiv">
+    <ion-grid class="heading_divs">
+      <ion-row>
+        <ion-col col-12>Work Experience</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+<!-- work experience content -->
+  <div class="workExperienceContentDiv">
+    <ion-grid>
+      <ion-row>
+        <ion-col class="staff_key" col-6>Assistant Manager</ion-col>
+        <ion-col class="seperator" col-1>I</ion-col>
+        <ion-col class="staff_value" col-5>
+          <b>8</b> years &
+          <b>1</b> month</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+
+
+
+
+
+  <!-- TRP DETAILS -->
+  <!-- trp details heading -->
+  <div class="trpDetailsHeadingDiv">
+    <ion-grid class="heading_divs">
+      <ion-row>
+        <ion-col col-12>TRP Details</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+<!-- trp details content -->
+  <div class="trpDetailsContentDiv">
+    <ion-grid class="content_divs">
+      <ion-row>
+        <ion-col col-1>
+          <span class="icon-circle_add"></span>
+        </ion-col>
+        <ion-col col-11 class="trp_Content">Add responsibilities</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+
+
+
+
+
+
+<!-- CERTIFICATION -->
+<!-- certification heading -->
+  <div class="certificationsHeadingDiv">
+    <ion-grid class="heading_divs">
+      <ion-row>
+        <ion-col col-12>Certifications</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+<!-- certification content -->
+  <div class="certificationsContentDiv">
+    <ion-grid class="content_divs">
+      <ion-row>
+        <ion-col col-1>
+          <span class="icon-circle_add"></span>
+        </ion-col>
+        <ion-col col-11 class="certification_Content">Add a certificate</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+
+
+
+
+
+  <!-- BASIC INFORMATION -->
+  <!-- basic info heading -->
+  <div class="basicInformationHeadingDiv">
+    <ion-grid class="heading_divs">
+      <ion-row>
+        <ion-col col-12>Basic Information</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+<!-- basic info content -->
+  <div class="basicInformationContentDiv">
+    <ion-grid class="content_divs">
+      <ion-row>
+        <ion-col col-1>
+          <span class="icon-circle_add"></span>
+        </ion-col>
+        <ion-col col-11 class="basicInfo_Content">+91 8948 3894</ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col col-1>
+          <span class="icon-circle_add"></span>
+        </ion-col>
+        <ion-col col-11 class="basicInfo_Content">albert.manoraj@wipro.com</ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col col-1>
+          <span class="icon-circle_add"></span>
+        </ion-col>
+        <ion-col col-11 class="basicInfo_Content">Tower 8,ground floor, C wing, Electronic City-III, Bengaluru,Karnataka, India </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+
+
+
+
+
+<!-- SKILLS -->
+<!-- skills heading -->
+  <div class="skillsHeadingDiv">
+    <ion-grid class="heading_divs">
+      <ion-row>
+        <ion-col col-12>Skills</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+<!-- skills content -->
+  <div class="skillsContentDiv">
+  </div>
+
+
+
+
+
+
+<!-- STAFFING -->
+<!-- staffing heading -->
+  <div class="staffingDetailsHeadingDiv">
+    <ion-grid class="heading_divs">
+      <ion-row>
+        <ion-col col-12>Staffing Details</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+<!-- staffing content -->
+  <div class="staffingDetailsContentDiv">
+    <ion-grid class="content_divs">
+      <ion-row>
+        <ion-col col-5 class="staff_key">Comapny Code</ion-col>
+        <ion-col class="seperator">|</ion-col>
+        <ion-col col-6 class="staff_value">WT01</ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col col-5 class="staff_key">Band</ion-col>
+        <ion-col class="seperator">|</ion-col>
+        <ion-col col-6 class="staff_value">Group B3</ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col col-5 class="staff_key">Stream</ion-col>
+        <ion-col class="seperator">|</ion-col>
+        <ion-col col-6 class="staff_value">Functional Stream</ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col col-5 class="staff_key">Cost Center</ion-col>
+        <ion-col class="seperator">|</ion-col>
+        <ion-col col-6 class="staff_value">T1130</ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col col-5 class="staff_key">Cost Center Desc</ion-col>
+        <ion-col class="seperator">|</ion-col>
+        <ion-col col-6 class="staff_value">Information Systems</ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col col-5 class="staff_key">Verticle</ion-col>
+        <ion-col class="seperator">|</ion-col>
+        <ion-col col-6 class="staff_value">Service Function</ion-col>
+      </ion-row>
+
+
+    </ion-grid>
+  </div>
+
+
+
+
+
+
+<!-- ROLES -->
+<!-- roles heading -->
+  <div class="rolesHandledHeadingDiv">
+    <ion-grid class="heading_divs">
+      <ion-row>
+        <ion-col col-11>Roles Handled</ion-col>
+        <ion-col col-1>
+          <span class="icon-edit"></span>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <!-- roles content -->
+  <div class="rolesHandledContentDiv">
+  </div>
+
+
+
+
+
+
+<!-- EXISTING RECOMMENDATION -->
+<!-- exisitng recommendation heading -->
+  <div class="existingRecommendationsHeadingDiv">
+    <ion-grid class="heading_divs">
+      <ion-row>
+        <ion-col col-12>Existing Recommendations</ion-col>
+
+      </ion-row>
+    </ion-grid>
+  </div>
+<!-- exisitng recommendation content -->
+  <div class="existingRecommendationsContentDiv">
+    <ion-grid class="content_divs">
+      <ion-row>
+
+        <ion-col col-12 class="recom_content">(You do not have existing recommendations)</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+
+
+</ion-content>

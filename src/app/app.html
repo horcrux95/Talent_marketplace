@@ -1,0 +1,58 @@
+<!-- Side menu -->
+<ion-menu [content]="nav" side="right" class="side-menu" type="overlay">
+    
+    <!-- Side menu header with close icon -->
+    <ion-header>
+        <ion-toolbar class="side_menu_item">
+            <span class="icon-close" menuToggle="right"></span>
+        </ion-toolbar>
+    </ion-header>
+
+    <!-- Side menu content -->
+    <ion-content class="sidemennu">
+        <ion-list>
+            
+            <!-- Side menu profile option with icon-->
+            <ion-item class="side_menu_item">
+                <span class="icon-user_id"></span> Profile
+            </ion-item>
+            
+            <!-- Side menu Jobs option with icon-->
+            <ion-item class="side_menu_item">
+                <span class="icon-business"></span>
+                Jobs
+                <!-- Side menu add and subtract icon to hide and show sub menu-->
+                <span class="icon-add" (click)="viewJobs()" *ngIf="!showJobs"></span>
+                <span class="icon-remove" (click)="viewJobs()" *ngIf="showJobs"></span>
+            </ion-item>
+
+            <!-- Sub menu option for Jobs option in Side menu  -->
+            <div *ngIf="showJobs" class="side_menu_subitem">
+
+                <ion-item class="side_menu_subitem">Recommended jobs</ion-item>
+                <ion-item class="side_menu_subitem">Jobs applied</ion-item>
+                <ion-item class="side_menu_subitem">My Preferences</ion-item>
+            </div>
+
+            <!-- Side menu Recommendations option with icon-->
+            <ion-item class="side_menu_item">
+                <span class="icon-like"></span>Recommendations
+                <span class="icon-add"></span>
+            </ion-item>
+
+            <!-- Side menu Policy option with icon-->
+            <ion-item class="side_menu_item">
+                <span class="icon-document"></span>Policy
+            </ion-item>
+
+            <!-- Side menu FAQ option with icon-->
+            <ion-item class="side_menu_item">
+                <span class="icon-help"></span>FAQ
+            </ion-item>
+
+        </ion-list>
+    </ion-content>
+</ion-menu>
+
+<!-- Sets home page as root page referencing side menu -->
+<ion-nav [root]="rootPage" #nav></ion-nav>

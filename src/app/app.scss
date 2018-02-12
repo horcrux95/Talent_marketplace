@@ -1,0 +1,224 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+// CSS for changing blue color in side menu on hovering/clicking
+ion-item:hover {
+  background-color: #04BAEC; 
+  color: white;
+  font-color: white;
+}
+
+// CSS for controlling width of side menu with respect to device width
+ion-menu .menu-inner {
+  width: 75%;
+  background-color: #04BAEC;
+}
+
+// CSS for devices mobiles
+@media screen and (min-width: 300px) {
+
+// item in side menu
+.side_menu_item{
+    font-size: 1.3em;
+    font-style: regular;
+    color: #818181;
+    // font-family: 'Navigation-icons'; //Font not despite being provided as per design
+}
+
+//items in sub menu of side menu item;s
+.side_menu_subitem{
+  position: relative;
+  padding-top: 2%;
+  right: -5%;
+  font-size: 1.1em;
+  font-style: regular;
+  color: #818181;
+  // font-family: 'Navigation-icons'; //Font not despite being provided as per design
+}
+
+.icon-close:before {
+    content: "\e928";
+    font-size: 1.4em;
+    position: relative;
+    right: 2%;
+    color: #A9A9A9;
+    font-family: 'Navigation-icons';
+  }
+
+  .icon-user_id:before {
+    content: "\e981";
+    padding-right: 3%;
+    color: #00BAEE;
+    font-family: 'Navigation-icons';
+  }
+
+  .icon-remove:before{
+    content: "\e96f";
+    position: absolute;
+    right: 3%;
+    font-size: 1.3em;
+    color: #A9A9A9;
+    font-family: 'Navigation-icons';
+  }
+  .icon-like:before {
+    content: "\e956";
+    padding-right: 3%;
+    color: #00BAEE;
+    font-family: 'Navigation-icons';
+  }
+
+  .icon-document:before {
+    content: "\e936";
+
+    padding-right: 3%;
+    color: #00BAEE;
+    font-family: 'Navigation-icons';
+  }
+
+  .icon-business:before {
+    content: "\e919";
+
+    padding-right: 3%;
+    color: #00BAEE;
+    font-family: 'Navigation-icons';
+  }
+
+  .icon-help:before {
+    content: "\e950";
+    padding-right: 3%;
+    color: #00BAEE;
+    font-family: 'Navigation-icons';
+  }
+
+  .icon-add:before {
+    content: "\e902";
+    position: absolute;
+    right: 3%;
+    // font-size: 1.3em;
+    color: #A9A9A9;
+    font-family: 'Navigation-icons';
+  }
+
+
+}
+@media screen and (min-width: 300px) {
+  $menu-width: 200px;
+  
+}
+
+@media screen and (min-width: 700px) {
+  $menu-width: 600px;
+}
+
+
+
+// CSS for tablets
+
+@media screen and (min-width: 700px) {
+
+  $menu-width: 400px;
+
+// item in side menu
+.side_menu_item{
+    font-size: 2.3em;
+    font-style: regular;
+    height: 50%;
+    color: #818181;
+}
+// item in sub menu of side item menu
+.side_menu_subitem{
+  position: relative;
+  padding-top: 2%;
+  right: -5%;
+  font-size: 1.5em;
+  font-style: regular;
+  color: #818181;
+}
+
+.icon-close:before {
+    content: "\e928";
+    font-size: 1.8em;
+    color: #A9A9A9;
+    position: relative;
+    right: 2%;
+    font-family: 'Navigation-icons';
+  }
+
+
+  .icon-user_id:before {
+    content: "\e981";
+    font-size: 1.3em;
+    padding-right: 3%;
+    color: #00BAEE;
+    font-family: 'Navigation-icons';
+  }
+
+  .icon-like:before {
+    content: "\e956";
+    font-size: 1.3em;
+    padding-right: 3%;
+    color: #00BAEE;
+    font-family: 'Navigation-icons';
+  }
+
+  .icon-document:before {
+    content: "\e936";
+    font-size: 1.3em;
+    padding-right: 3%;
+    color: #00BAEE;
+    font-family: 'Navigation-icons';
+  }
+
+  .icon-business:before {
+    content: "\e919";
+    font-size: 1.3em;
+    padding-right: 3%;
+    color: #00BAEE;
+    font-family: 'Navigation-icons';
+  }
+
+  .icon-help:before {
+    font-size: 1.3em;
+    content: "\e950";
+    padding-right: 3%;
+    color: #00BAEE;
+    font-family: 'Navigation-icons';
+  }
+
+  .icon-add:before {
+    content: "\e902";
+    position: absolute;
+    right: 3%;
+    font-size: 1.3em;
+    color: #A9A9A9;
+    font-family: 'Navigation-icons';
+  }
+
+  .icon-remove:before{
+    content: "\e96f";
+    position: absolute;
+    right: 3%;
+    font-size: 1.3em;
+    color: #A9A9A9;
+    font-family: 'Navigation-icons';
+  }
+}
+
+// item in side menu CSS
+ion-item {
+  margin: 13px 8px 13px 0;
+}

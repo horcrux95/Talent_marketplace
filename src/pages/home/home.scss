@@ -1,0 +1,33 @@
+// progress bar CSS
+.progressBar {
+  position: absolute;
+  top:44%;
+  left:12%;  
+  border: 1px solid #00A0E3; 
+  
+}
+// home page content css applied on ion-content
+.myclass{
+   background: url("../../assets/imgs/background_image.png") no-repeat center center fixed #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+// Talent marketplace resposive image CSS
+.heading_image_home{
+  position: absolute;
+  top:26%;
+  left: 10%;
+  width: 78%;
+}
+// white background for progress bar loader
+.progressBarBackgound{
+  position: absolute;
+  top:44%;
+  left:12%;  
+  border: 1px solid white; 
+  width:75%;
+  background-color:white;
+  z-index: -1;
+}
