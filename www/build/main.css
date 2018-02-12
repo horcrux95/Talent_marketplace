@@ -25855,12 +25855,26 @@ ion-item {
   background-size: cover;
 }
 
-.profile_seperator {
-  margin-top: 40%;
-  height: 80%;
-}
-
 @media screen and (min-width: 300px) {
+  .profile_seperator {
+    position: relative;
+    left: -100%;
+    width: 8%;
+    margin-top: 42%;
+    height: 80%;
+  }
+  .wex_key {
+    font-size: 1.1em;
+    color: #353739;
+    font-family: 'Navigation-Icons';
+  }
+  .wex_value {
+    position: relative;
+    left: -5%;
+    font-size: 1.1em;
+    color: #353739;
+    font-family: 'Navigation-Icons';
+  }
   P {
     text-align: center;
     font-family: 'Navigation-icons';
@@ -25916,17 +25930,22 @@ ion-item {
     color: #626262;
   }
   .seperator {
+    position: relative;
+    margin-top: 0.5%;
+    left: -1%;
     color: #00BAEE;
     font-size: 1.0em;
     font-family: 'Navigation-icons';
   }
   .staff_key {
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: 'Navigation-icons';
     color: #626262;
   }
   .staff_value {
-    font-size: 0.8em;
+    position: relative;
+    left: -5%;
+    font-size: 1.1em;
     font-family: 'Navigation-icons';
     margin-top: 0%;
     color: #353739;
@@ -25934,7 +25953,7 @@ ion-item {
   .employee_image {
     position: absolute;
     top: 5%;
-    left: 35%;
+    left: 37%;
     width: 27%;
     height: 32%;
   }
@@ -25944,13 +25963,13 @@ ion-item {
     position: relative;
     text-align: center;
     top: 39%;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: bold;
   }
   .employee_details_pannel {
     font-family: 'Navigation-icons';
     position: relative;
-    top: 35%;
+    top: 37%;
   }
   .employee_left_pannel {
     font-family: 'Navigation-icons';
@@ -25966,6 +25985,8 @@ ion-item {
     font-family: 'Navigation-icons';
     text-align: center;
     margin-top: 4%;
+    position: relative;
+    left: -12%;
   }
   .employee_right_pannel_details {
     font-family: 'Navigation-icons';
@@ -25977,7 +25998,7 @@ ion-item {
     text-align: center;
     position: absolute;
     bottom: -1%;
-    left: 0%;
+    left: -3%;
     width: 100%;
     font-size: 0.6em;
   }
@@ -26030,11 +26051,16 @@ ion-item {
     padding-left: 4%;
     padding-right: 4%;
     left: 1%;
-    height: 25%;
+    height: auto;
     width: 98%;
     background-color: white;
     overflow: hidden;
     border-radius: 0px 0px 4px 4px;
+  }
+  .about_me_content {
+    font-family: 'Navigation-icons';
+    color: #626262;
+    font-size: 1.1em;
   }
   .aboutmeFooter {
     font-family: 'Navigation-icons';
@@ -26070,7 +26096,7 @@ ion-item {
     float: left;
     margin-top: -1%;
     left: 1%;
-    height: 10%;
+    height: 7%;
     width: 98%;
     background-color: white;
     overflow: none;
@@ -26094,7 +26120,7 @@ ion-item {
     float: left;
     margin-top: -1%;
     left: 1%;
-    height: 10%;
+    height: 8%;
     width: 98%;
     background-color: white;
     border-radius: 0px 0px 4px 4px;
@@ -26117,7 +26143,7 @@ ion-item {
     float: left;
     margin-top: -1%;
     left: 1%;
-    height: 10%;
+    height: 8%;
     width: 98%;
     background-color: white;
     overflow: none;
@@ -26165,7 +26191,7 @@ ion-item {
     float: left;
     margin-top: -1%;
     left: 1%;
-    height: 15%;
+    height: 12%;
     width: 98%;
     background-color: white;
     overflow: none;
@@ -26213,7 +26239,7 @@ ion-item {
     float: left;
     margin-top: -1%;
     left: 1%;
-    height: 15%;
+    height: 12%;
     width: 98%;
     background-color: white;
     overflow: none;
@@ -26246,14 +26272,35 @@ ion-item {
   .icon-linkedin:before {
     content: "\e99c";
     color: white;
-    font-size: 0.5em;
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: 'Navigation-icons';
+  }
+  .icon-email:before {
+    content: "\e93a";
+    color: #00BAEE;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Navigation-icons';
+  }
+  .icon-location:before {
+    content: "\e958";
+    color: #00BAEE;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Navigation-icons';
+  }
+  .icon-call:before {
+    content: "\e91c";
+    color: #00BAEE;
+    font-size: 1.4em;
     font-weight: bold;
     font-family: 'Navigation-icons';
   }
   .icon-edit:before {
     content: "\e939";
     color: #00BAEE;
-    font-size: 1.3em;
+    font-size: 1.1em;
     position: absolute;
     right: 4%;
     font-family: 'Navigation-icons';
@@ -26295,6 +26342,25 @@ ion-item {
 }
 
 @media screen and (min-width: 700px) {
+  .wex_key {
+    position: relative;
+    left: 2%;
+    font-size: 2.1em;
+    color: #353739;
+    font-family: 'Navigation-Icons';
+  }
+  .wex_value {
+    font-size: 2.1em;
+    color: #353739;
+    font-family: 'Navigation-Icons';
+  }
+  .profile_seperator {
+    position: relative;
+    left: -100%;
+    width: 8%;
+    margin-top: 42%;
+    height: 35%;
+  }
   P {
     text-align: center;
     font-family: 'Navigation-icons';
@@ -26350,6 +26416,8 @@ ion-item {
     font-size: 2.0em;
   }
   .staff_value {
+    position: relative;
+    left: -10%;
     font-family: 'Navigation-icons';
     color: #353739;
     left: 1%;
@@ -26402,7 +26470,7 @@ ion-item {
     bottom: 2%;
     left: 0%;
     width: 100%;
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
   .profileDetailsDiv {
     font-family: 'Navigation-icons';
@@ -26440,7 +26508,7 @@ ion-item {
     padding-right: 4%;
     left: 1%;
     font-size: 1.2em;
-    height: 17%;
+    height: auto;
     width: 98%;
     background-color: white;
     overflow: hidden;
@@ -26460,6 +26528,11 @@ ion-item {
     overflow: hidden;
     border-radius: 0px 0px 4px 4px;
     font-size: 1.2em;
+  }
+  .about_me_content {
+    font-family: 'Navigation-icons';
+    color: #626262;
+    font-size: 1.6em;
   }
   .aboutmeFooter {
     font-family: 'Navigation-icons';
@@ -26492,7 +26565,7 @@ ion-item {
     float: left;
     margin-top: -1%;
     left: 1%;
-    height: 10%;
+    height: 8%;
     width: 98%;
     background-color: white;
     overflow: none;
@@ -26514,7 +26587,7 @@ ion-item {
     float: left;
     margin-top: -1%;
     left: 1%;
-    height: 10%;
+    height: 8%;
     width: 98%;
     background-color: white;
     border-radius: 0px 0px 4px 4px;
@@ -26548,7 +26621,7 @@ ion-item {
     float: left;
     margin-top: -1%;
     left: 1%;
-    height: 10%;
+    height: 8%;
     width: 98%;
     background-color: white;
     overflow: none;
@@ -26697,6 +26770,27 @@ ion-item {
     content: "\e908";
     color: #00BAEE;
     font-size: 2.1em;
+    font-family: 'Navigation-icons';
+  }
+  .icon-email:before {
+    content: "\e93a";
+    color: #00BAEE;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'Navigation-icons';
+  }
+  .icon-location:before {
+    content: "\e958";
+    color: #00BAEE;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'Navigation-icons';
+  }
+  .icon-call:before {
+    content: "\e91c";
+    color: #00BAEE;
+    font-size: 1.9  em;
+    font-weight: bold;
     font-family: 'Navigation-icons';
   }
   .icon-analysis:before {
