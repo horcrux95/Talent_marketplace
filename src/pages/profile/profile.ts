@@ -16,7 +16,7 @@ export class ProfilePage {
 
    constructor(platform: Platform , public navCtrl: NavController) {
     platform.ready().then((readySource) => {
-      this.screenHeight=platform.width();
+      this.screenHeight=platform.height();
        });
    
    }
@@ -31,6 +31,7 @@ export class ProfilePage {
        aboutmeDiv[0].className = "aboutmeDivLong";
        this.aboutmeClass="aboutmeDivLong";
     }
+    console.log(this.aboutmeClass);
   }
 
   aboutmeToggle(){
