@@ -19,61 +19,65 @@
     }
        
     .wex_key{
-        font-size: 1.1em;
+        font-size: 0.9em;
         color: #353739;
-        font-family: 'Navigation-Icons';
+        // font-family: 'Navigation-Icons';
+    }
+    .wokex_details{
+        color: #353739;
+        font-size: 0.9em;
     }
 
     .wex_value{
         position: relative;
         left: -5%;
-        font-size: 1.1em;
+        font-size: 0.9em;
         color: #353739;
-        font-family: 'Navigation-Icons';
+        // font-family: 'Navigation-Icons';
     }
 P { text-align: center;
-    font-family: 'Navigation-icons'; 
+    // font-family: 'Navigation-icons'; 
 }
 
 h2{
     line-height: 15px;
     color: white;
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
 }
 
 
 h5{
     line-height: 15px;
     color: white;
-    font-size: 1.6em;
-    font-family: 'Navigation-icons';
+     font-size: 0.9em;
+    // font-family: 'Navigation-icons';
 }
 
 //talent marketplace logo
 .heading_image{
     position: absolute;
-    top:-80%;
-    left: 10%;
+    top:-40%;
+    left: 8%;
     width: 80%;
 }
 
 //content in trp details
 .trp_Content{
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 
 //content in certification
 .certification_Content{
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 //content in basic info
 .basicInfo_Content{
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 //content in recommendations
 .recom_content{
     text-align: center; 
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 
 .icon-burger_menu:before {
@@ -81,7 +85,7 @@ h5{
     color: white;
     position: absolute;
     right:0%;
-    top:100%;
+    top:60%;
     font-size: 1.8em;
     font-family: 'Navigation-icons';
   }
@@ -90,13 +94,13 @@ h5{
 .heading_divs{
     padding-top: 1%;
     color: #00BAEE;
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
     font-size: 1.5em;
 }
 //CSS of all content divs
 .content_divs{
     padding-top: 1%;
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
     color: #626262;
 }
 //CSS of all seperator
@@ -106,20 +110,20 @@ h5{
     left: -1%;
     color: #00BAEE;
     font-size: 1.0em;
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
 }
 //CSS of all staffing details left keys
 .staff_key{
-    font-size: 1.2em;
-    font-family: 'Navigation-icons';
+    font-size: 0.9em;
+    // font-family: 'Navigation-icons';
     color: #626262;
 }
 //CSS of all staffing details left keys
 .staff_value{
     position: relative;
     left: -5%;
-    font-size: 1.1em;
-    font-family: 'Navigation-icons';
+    font-size: 0.9em;
+    // font-family: 'Navigation-icons';
     margin-top: 0%;
     color: #353739;
 }
@@ -134,23 +138,23 @@ h5{
 }
 //employee profile pic
 .employee_name{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
     color: white;
     position: relative;
     text-align:center;
     top: 39%;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: bold;
 }   
 
 .employee_details_pannel{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
     position: relative;
     top:37%;
 }
 
 .employee_left_pannel{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
     text-align: center;
     margin-top: 4%;
     // border: 1px solid white;
@@ -158,13 +162,13 @@ h5{
 
 
 .employee_left_pannel_details{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
     color: white;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 .employee_right_pannel{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
     text-align: center;
     margin-top: 4%;
     position: relative;
@@ -173,29 +177,35 @@ h5{
     // border: 1px solid white;
 }
 
-.employee_right_pannel_details{
-    font-family: 'Navigation-icons';
+.employee_right_pannel_details_decimal{
     color: white;
-    font-size: 1em;
+    font-size: 0.9em;
+    position: relative;
+    left: 5%; 
+}
+.employee_right_pannel_details{
+    // font-family: 'Navigation-icons';
+    color: white;
+    font-size: 0.9em;
 }
 
 .employee_linkedin{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
     // margin-top: 10%;
     // border: 1px solid white;
     text-align: center;
     position: absolute;
-    bottom: -1%;
-    left: -3%;
+    bottom: -3%;
+    left: -1%;
     width: 100%;
-    font-size: 0.6em;
+    font-size: 0.7em;
 }
 
 
 
 
 .profileDetailsDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
     position: relative;
     float: left;
     margin-top:12.5%;
@@ -209,11 +219,12 @@ h5{
 }
 
 .aboutmeHeadingDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
    // border: 2px solid black;
     position: relative;
     float:left;   
     margin-top: 3%;
+    font-size: 0.9em;
     left:1%;
     height: 8%;
     width: 98%;
@@ -224,9 +235,10 @@ h5{
 }
 
 .aboutmeDivShort{ 
-    font-family: 'Navigation-icons';
-   // border: 2px solid black;
+    // font-family: 'Navigation-icons';
+//    border: 2px solid black;
     position: relative;
+    text-align: center;
     margin-top: -1%;
     float:left;   
     padding-left: 4%;
@@ -234,15 +246,18 @@ h5{
     left:1%;
     height: auto;
     width: 98%;
+    padding: 3%;
     background-color: white;
     overflow: none;
     border-radius: 0px 0px 4px 4px;  
 }
 
 .aboutmeDivLong{  
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
    // border: 2px solid black;
     position: relative;
+
+    text-align: center;
     margin-top: -1%;
     float:left;   
     padding-left: 4%;
@@ -255,12 +270,16 @@ h5{
     border-radius: 0px 0px 4px 4px;  
 }
 .about_me_content{
-    font-family: 'Navigation-icons';
+    text-align: center;
+    // font-family: 'Navigation-icons';
     color: #626262;
-    font-size:1.1em;
+    font-size:0.9em;
+    margin-bottom: 3%;
+    height: auto;
+    // padding-bottom: 10%;
 }
 .aboutmeFooter{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
     position: relative;
     float:left; 
     left:1%;
@@ -272,7 +291,7 @@ h5{
 }
 
 #aboutmeIcon{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
     // border: 2px solid black;
     position: relative;
     left:48%;
@@ -282,13 +301,14 @@ h5{
   
 
 .workExperienceHeadingDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
 //    border: 2px solid black;
     position: relative;
     float:left;   
     margin-top: 3%;
     left:1%;
     height: 8%;
+    font-size: 0.9em;
     width: 98%;
     background-color: white;
     overflow: none;
@@ -296,7 +316,7 @@ h5{
 }
 
 .workExperienceContentDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
 //    border: 2px solid black;
     position: relative;
     float:left;   
@@ -310,7 +330,7 @@ h5{
 }
 
 .trpDetailsHeadingDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
    // border: 2px solid black;
     position: relative;
     float:left;   
@@ -319,12 +339,13 @@ h5{
     height: 8%;
     width: 98%;
     background-color: white;
+    font-size: 0.9em;
     overflow: none;
     border-radius: 4px 4px 0px 0px;
 }
 
 .trpDetailsContentDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
   //  border: 2px solid black;
     position: relative;
     float:left;   
@@ -338,7 +359,7 @@ h5{
 
 
 .certificationsHeadingDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
    // border: 2px solid black;
     position: relative;
     float:left;   
@@ -347,12 +368,13 @@ h5{
     height: 8%;
     width: 98%;
     background-color: white;
+    font-size: 0.9em;
     overflow: none;
     border-radius: 4px 4px 0px 0px;
 }
 
 .certificationsContentDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
    // border: 2px solid black;
     position: relative;
     float:left;   
@@ -367,7 +389,7 @@ h5{
 }
 
 .basicInformationHeadingDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
    // border: 2px solid black;
     position: relative;
     float:left;   
@@ -376,12 +398,13 @@ h5{
     height: 8%;
     width: 98%;
     background-color: white;
+    font-size: 0.9em;
     overflow: none;
     border-radius: 4px 4px 0px 0px;
 }
 
 .basicInformationContentDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
    // border: 2px solid black;
     position: relative;
     float:left;   
@@ -395,7 +418,7 @@ h5{
 }
 
 .skillsHeadingDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
   //  border: 2px solid black;
     position: relative;
     float:left;   
@@ -403,13 +426,14 @@ h5{
     left:1%;
     height: 8%;
     width: 98%;
+    font-size: 0.9em;
     background-color: white;
     overflow: none;
     border-radius: 4px 4px 0px 0px; 
 }
 
 .skillsContentDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
    // border: 2px solid black;
     position: relative;
     float:left;   
@@ -423,7 +447,7 @@ h5{
 }
 
 .staffingDetailsHeadingDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
     //border: 2px solid black;
     position: relative;
     float:left;   
@@ -432,12 +456,13 @@ h5{
     height: 8%;
     width: 98%;
     background-color: white;
+    font-size: 0.9em;
     overflow: none;
     border-radius: 4px 4px 0px 0px;
 }
 
 .staffingDetailsContentDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
    // border: 2px solid black;
     position: relative;
     float:left;   
@@ -452,7 +477,7 @@ h5{
 }
 
 .rolesHandledHeadingDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
   //  border: 2px solid black;
     position: relative;
     float:left;   
@@ -460,12 +485,13 @@ h5{
     left:1%;
     height: 8%;
     width: 98%;
+    font-size: 0.9em;
     background-color: white;
     border-radius: 4px 4px 0px 0px;
 }
 
 .rolesHandledContentDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
 //border: 2px solid black;
     position: relative;
     float:left;   
@@ -479,21 +505,22 @@ h5{
 }
 
 .existingRecommendationsHeadingDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
    // border: 2px solid black;
     position: relative;
     float:left;   
     margin-top: 3%;
     left:1%;
-    height: 8%;
+    height: auto;
     width: 98%;
+    font-size: 0.9em;
     background-color: white;
     overflow: none;
     border-radius: 4px 4px 0px 0px; 
 }
 
 .existingRecommendationsContentDiv{
-    font-family: 'Navigation-icons';
+    // font-family: 'Navigation-icons';
      // border: 2px solid black;
     position: relative;
     float:left;   
@@ -517,14 +544,14 @@ h5{
 .icon-email:before {
     content: "\e93a";
     color: #00BAEE;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bold;
     font-family: 'Navigation-icons';
   }
 .icon-location:before {
     content: "\e958";
     color: #00BAEE;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bold;
     font-family: 'Navigation-icons';
 
@@ -533,7 +560,7 @@ h5{
   .icon-call:before {
     content: "\e91c";
     color: #00BAEE;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bold;
     font-family: 'Navigation-icons';
 }
@@ -543,46 +570,46 @@ h5{
     font-size: 1.1em;
     position: absolute;
     right: 4%;
-    font-family: 'Navigation-icons'
+    font-family: 'Navigation-icons';
   }
 
   .icon-circle_add:before {
     content: "\e920";
     color: #00BAEE;
-    font-size: 1.5em;
-    font-family: 'Navigation-icons'
+    font-size: 1.2em;
+    font-family: 'Navigation-icons';
   }
 
   .icon-arrow_down:before {
     content: "\e908";
     color: #00BAEE;
-    font-family: 'Navigation-icons'
+    font-family: 'Navigation-icons';
   }
   
   .icon-arrow_drop_up:before{
     content: "\e90c";
     color: #00BAEE;
-    font-family: 'Navigation-icons' 
+    font-family: 'Navigation-icons' ;
   }
 
   .icon-analysis:before {
     content: "\e904";
     color: white;
     padding-right: 12%;
-    font-family: 'Navigation-icons'
+    font-family: 'Navigation-icons';
   }
   .icon-handshake:before {
     content: "\e9a5";
     color: white;
     padding-right: 12%;
-    font-family: 'Navigation-icons'
+    font-family: 'Navigation-icons';
   }
 
   .icon-trophy:before {
     content: "\e9a6";
     color: white;
     padding-right: 12%;
-    font-family: 'Navigation-icons'
+    font-family: 'Navigation-icons';
   }
 
   }
@@ -602,15 +629,21 @@ h5{
     .wex_key{
         position: relative;
         left: 2%;
-        font-size: 2.1em;
+        font-size:1.5em;
         color: #353739;
-        font-family: 'Navigation-Icons';
+        // font-family: 'Navigation-Icons';
     }
-
-    .wex_value{
-        font-size: 2.1em;
+    .wokex_details{
         color: #353739;
-        font-family: 'Navigation-Icons';
+        position:relative;
+        left: 2%;
+        font-size: 1.5em;
+    }
+    .wex_value{
+       
+        font-size:1.5em;
+        color: #353739;
+        // font-family: 'Navigation-Icons';
     }
 
     .profile_seperator{
@@ -622,22 +655,24 @@ h5{
     }
     
     P { text-align: center;
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
      }
     
-    h2{ font-family: 'Navigation-icons';
+    h2{
+        //  font-family: 'Navigation-icons';
         line-height: 15px;
         color: white;
     }
-    h5{ font-family: 'Navigation-icons';
+    h5{ 
+        // font-family: 'Navigation-icons';
         line-height: 15px;
         color: white;
         font-size: 1.6em;
     }
     .heading_image{
         position: absolute;
-        top:-80%;
-        left: 10%;
+        top:-30%;
+        left: 8%;
         width: 80%;
     }
     
@@ -647,46 +682,46 @@ h5{
         color: white;
         position: absolute;
         right:1%;
-        top:400%;
+        top:300%;
         font-size: 3.0em;
-        font-family: 'Navigation-icons'
+        // font-family: 'Navigation-icons'
       }
      //heading of all divisions
     .heading_divs{
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
         position: absolute;
         left: 1%;
         padding-top: 2%;
-        font-size: 2.5em;
+        font-size: 2.3em;
         color: #00BAEE;
     }
     //CSS of all content divs
     .content_divs{
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
         padding-top: 1%;
         color: #626262;
     }
     //CSS of all seperator
     .seperator{
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
         color: #00BAEE;
         font-size: 2.0em;
     }
     //CSS of all staffing details left keys
     .staff_key{
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
         color: #626262;
         left: 1%;
-        font-size: 2.0em;
+        font-size:1.5em;
     }
     //CSS of all staffing details left values
     .staff_value{
         position: relative;
         left: -10%;
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
         color: #353739; 
         left: 1%;
-        font-size: 1.9em;
+        font-size:1.5em;
     }
     //employee profile pic
     .employee_image{
@@ -699,48 +734,53 @@ h5{
     }
     //employee name
     .employee_name{
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
         color: white;
         position: relative;
         text-align:center;
         top: 45%;
-        font-size: 2.2em;
+        font-size: 1.9em;
         font-weight: bold;
     }
     
     .employee_details_pannel{
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
         position: relative;
         top:50%;
     }
     
     .employee_left_pannel{
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
         text-align: center;
         // border: 1px solid white;
     }
-    
-    
-    .employee_left_pannel_details{
-        font-family: 'Navigation-icons';
+    .employee_right_pannel_details_decimal{
         color: white;
         font-size: 1.9em;
+        position: relative;
+        left: 7%; 
+    }
+    
+    .employee_left_pannel_details{
+        // font-family: 'Navigation-icons';
+        color: white;
+        font-size: 1.5em;
     }
     
     .employee_right_pannel{
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
         text-align: center;
         // border: 1px solid white;
     }
     
     .employee_right_pannel_details{
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
         color: white;
-        font-size: 1.9em;
+        font-size: 1.5em;
     }
     
     .employee_linkedin{
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
         padding: 0px;
         // border: 1px solid white;
         text-align: center;
@@ -748,13 +788,14 @@ h5{
         bottom: 2%;
         left: 0%;
         width: 100%;
-        font-size: 1.2em;
+        // margin-top: 10%;
+        font-size: 0.9em;
     }
     
     
     
     .profileDetailsDiv{
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
         position: relative;
         float: left;
         margin-top:14%;
@@ -768,7 +809,7 @@ h5{
     }
     
     .aboutmeHeadingDiv{
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
     //    border: 2px solid black;
         position: relative;
         float:left;   
@@ -783,7 +824,7 @@ h5{
     }
     
     .aboutmeDivShort{ 
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
        // border: 2px solid black;
         position: relative;
         margin-top: -1%;
@@ -800,7 +841,7 @@ h5{
     }
     
     .aboutmeDivLong{  
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
        // border: 2px solid black;
         position: relative;
         margin-top: -1%;
@@ -817,12 +858,12 @@ h5{
     }
     
     .about_me_content{
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
         color: #626262;
-        font-size:1.6em;
+        font-size:1.5em;
     }
     .aboutmeFooter{
-        font-family: 'Navigation-icons';
+        // font-family: 'Navigation-icons';
         position: relative;
         float:left; 
         left:1%;
@@ -861,10 +902,12 @@ h5{
         float:left;   
         margin-top: -1%;
         left:1%;
+        // font-size:1.0em;
         height: 8%;
         width: 98%;
         background-color: white;
         overflow: none;
+        
         border-radius: 0px 0px 4px 4px;  
     }
     
@@ -887,6 +930,7 @@ h5{
         float:left;   
         margin-top: -1%;
         left:1%;
+        // font-size:1.0em;
         height: 8%;
         width: 98%;
         background-color: white;
@@ -894,20 +938,20 @@ h5{
     }
     //content in trp details
     .trp_Content{
-        font-size: 2.0em;
+        font-size:1.5em;
     }
     //content in certification
     .certification_Content{
-        font-size: 2.0em;
+        font-size:1.5em;
     }
     //content in basic info
     .basicInfo_Content{
-        font-size: 2.0em;
+        font-size:1.5em;
     }
     //content in recommendations
     .recom_content{
         text-align: center; 
-        font-size: 2.0em;
+        font-size:1.5em;
     }
     .certificationsHeadingDiv{
        // border: 2px solid black;

@@ -11,17 +11,17 @@ $font-path: "../assets/fonts";
 // http://ionicframework.com/docs/theming/rtl-support/
 
 
-$menu-ios-background: white;
-$menu-md-background: white;
-$menu-wp-background: white;
+// $menu-ios-background: white;
+// $menu-md-background: white;
+// $menu-wp-background: white;
 
-$app-direction: rtl;
-$toolbar-background:white !default;
+// $app-direction: rtl;
+// $toolbar-background:white !default;
 
-$menu-background:white !default;
-$menu-box-shadow-color:white;
-$item-md-padding-bottom: 15px !default;
-$item-ios-padding-bottom: 15px !default;
+// $menu-background:white !default;
+// $menu-box-shadow-color:white;
+// $item-md-padding-bottom: 15px !default;
+// $item-ios-padding-bottom: 15px !default;
 
 
 @import "ionic.globals";
@@ -97,17 +97,16 @@ $colors: (
 // Fonts
 // --------------------------------------------------
 
-// @import "roboto";
-// @import "noto-sans";
+@import "roboto";
+@import "noto-sans";
+
+// $font-base: "Navigation-icons";
 
 @font-face {
-  font-family: 'Navigation-icons' ;
-  font-style: Regular;
-  src: url('../assets/fonts/fonts/Navigation-icons.ttf');
-}
+  font-family: "Navigation-icons";
+  src: url("../assets/fonts/Navigation-icons.ttf") format("ttf");
+  }
 
-$font-family-base: "Navigation-icons";
-
-body{
-  font-family: "Navigation-icons" !important
-}
+  body ,p{
+      font-family: 'Navigation-icons' !important;
+  }
